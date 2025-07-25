@@ -134,3 +134,125 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+.plants {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.plants h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.plants .highlight {
+    color: #e85c00;
+}
+
+.plants p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.plant-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.plant-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.plant-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.plant-card p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plant-card button {
+    background-color: #e85c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.plant-lover {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 120px;
+    background-color: white;
+    gap: 60px;
+}
+
+.plant-image {
+    position: relative;
+    width: 45%;
+}
+
+.plant-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.plant-image .badge {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+
+    width: 100px;
+    height: auto;
+}
+
+.plant-text {
+    width: 50%;
+}
+
+.plant-text h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.plant-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.plant-text li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
